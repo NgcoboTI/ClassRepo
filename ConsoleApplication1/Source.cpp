@@ -45,6 +45,7 @@ int main()
 	Animal myAnimal;
 	Dog myDog;
 
+	//using class base pointers
 	Animal *animalPtr;
 
 	animalPtr = &myDog;
@@ -58,6 +59,7 @@ int main()
 
 	cout << "Dogs have " << myDog.howManyLegs()<< " legs." <<endl;
 	cout << "Using base class pointer from the derieved class " << endl;
+
 	animalPtr->whoAmi();
 	animalPtr->does();
 
